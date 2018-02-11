@@ -45,7 +45,7 @@ for l in alpha:
                 t += o;
                 tickers.append(t);
 
-pool = ThreadPool(1000);
+pool = ThreadPool(10);
 pool.map(fetchdata,tickers)
 
 #_thread.start_new_thread(fetchdata, ('meme','a',));
