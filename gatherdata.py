@@ -1,5 +1,4 @@
 from multiprocessing.dummy import Pool as ThreadPool
-import _thread
 import time
 import json
 import os
